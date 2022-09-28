@@ -122,9 +122,7 @@
   object-fit: cover;
 }
 
-.connected-container {
-  overflow-x: hidden;
-}
+.connected-container {height: auto;}
 
 .connected-container input[type="text"] {
   display: inline-block;
