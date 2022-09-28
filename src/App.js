@@ -25,6 +25,7 @@ const App = () => {
     const [gifList, setGifList] = useState([]);
 
     //TOASTS
+
     const showPhantomToast = () =>
         toast("To sign in, download a Phantom Wallet 👻 at https://phantom.app");
     const showConnectedWalletToast = () => toast.success("You're signed in!");
@@ -32,6 +33,7 @@ const App = () => {
     const showGifSentToast = () => toast.success("GIF Sent!");
 
     //ACTIONS
+
     const checkIfWalletIsConnected = async () => {
         try {
             const { solana } = window;
