@@ -25,19 +25,19 @@
   margin: 0;
   margin-top: -500px;
   font-size: 2.5rem;
-  font-family: "Eczar Extra Bold";
+  font-family: "Eczar ExtraBold";
   color: white;
 }
 
 .sub-header {
   margin-top: -10px;
   font-size: 1.1rem;
-  font-family: "Eczar Extra Bold";
+  font-family: "Eczar ExtraBold";
   color: white;
 }
 
 .connected-header {
-  font-family: "Eczar Extra Bold";
+  font-family: "Eczar ExtraBold";
   color: white;
   position: relative;
   left: -530px;
@@ -70,7 +70,7 @@
 .disconnect-wallet-button {
   background-color: #E43397;
   position: relative;
-  font-family: "Eczar Extra Bold";
+  font-family: "Eczar ExtraBold";
   font-size: 0.9rem;
   left: 500px;
   top: -60px;
@@ -89,7 +89,7 @@
   background-color: #020202;
   background-size: 200% 200%;
   margin-left: 10px;
-  font-family: "Eczar Extra Bold";
+  font-family: "Eczar ExtraBold";
   font-size: 1rem;
 }
 
