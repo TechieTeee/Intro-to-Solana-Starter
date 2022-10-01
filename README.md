@@ -1,4 +1,4 @@
-# 🚀 GIF Portal
+# GIF Portal
 
 Gallery of GIFs Chosen by Users and Stored on Solana Blockchain
 
