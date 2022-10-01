@@ -1,6 +1,6 @@
-# 🚀 Intro-To-Solana-Starter
+# 🚀 GIF Portal
 
-This is the starter repo for build pr3tti's Intro-to-Solana project! To get started:
+Gallery of GIFs Chosen by Users and Stored on Solana Blockchain
 
 - Click the fork button. You've now created your own version of the project.
 - Click the clone button and copy the link that appears from the drop down menu.
