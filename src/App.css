@@ -25,7 +25,7 @@
   margin: 0;
   margin-top: -500px;
   font-size: 2.5rem;
-  font-family: "Eczar";
+  font-family: "Squada One";
   color: white;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .connected-header {
-  font-family: "Eczar";
+  font-family: "Squada One";
   color: white;
   position: relative;
   left: -530px;
@@ -60,7 +60,7 @@
 .connect-wallet-button {
   background-color: #E43397;
   background-size: 200% 200%;
-  font-family: "Eczar";
+  font-family: "Squada One";
   position: relative;
   width: 150px;
   top: -500px;
@@ -70,7 +70,7 @@
 .disconnect-wallet-button {
   background-color: #E43397;
   position: relative;
-  font-family: "Eczar";
+  font-family: "Squada One";
   font-size: 0.9rem;
   left: 500px;
   top: -60px;
@@ -89,7 +89,7 @@
   background-color: #020202;
   background-size: 200% 200%;
   margin-left: 10px;
-  font-family: "Eczar";
+  font-family: "Squada One";
   font-size: 1rem;
 }
 
