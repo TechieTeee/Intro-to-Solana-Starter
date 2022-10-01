@@ -171,8 +171,8 @@ const App = () => {
             >
                 SIGN IN
             </button>
-            <p className="header">Scene Portal</p>
-            <p className="sub-header">Your favorite scenes, on the blockchain</p>
+            <p className="header">WWW: Wonder Women of the World</p>
+            <p className="sub-header">The Most Inspiring Women on the Block</p>
             <div className="moon" />
             <div className="kiki" />
         </div>
@@ -193,7 +193,7 @@ const App = () => {
         } else {
             return (
                 <div className="connected-container">
-                    <p className="connected-header">SCENE PORTAL</p>
+                    <p className="connected-header">WWW: Wonder Women of the World</p>
                     <button
                         className="cta-button disconnect-wallet-button"
                         onClick={disconnectWallet}
@@ -209,7 +209,7 @@ const App = () => {
                     >
                         <input
                             type="text"
-                            placeholder="post your favorite film/tv scene"
+                            placeholder="The Most Inspiring Women on the Block"
                             value={inputValue}
                             onChange={onInputChange}
                         />
