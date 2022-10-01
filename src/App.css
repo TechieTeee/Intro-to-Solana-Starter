@@ -1,6 +1,6 @@
 .App {
   height: 100vh;
-  background-color: #250352;
+  background-color: #020202;
   overflow: auto;
   text-align: center;
 }
@@ -58,7 +58,7 @@
 }
 
 .connect-wallet-button {
-  background-color: #360477;
+  background-color: #020202;
   background-size: 200% 200%;
   font-family: "Permanent Marker", cursive;
   position: relative;
@@ -68,7 +68,7 @@
 }
 
 .disconnect-wallet-button {
-  background-color: #360477;
+  background-color: #020202;
   position: relative;
   font-family: "Permanent Marker", cursive;
   font-size: 0.9rem;
@@ -86,7 +86,7 @@
 }
 
 .submit-gif-button {
-  background-color: #360477;
+  background-color: #020202;
   background-size: 200% 200%;
   margin-left: 10px;
   font-family: "Permanent Marker", cursive;
@@ -110,7 +110,7 @@
   position: relative;
   justify-self: center;
   align-self: center;
-  background-color: #360477;
+  background-color: #020202;
   padding: 15px;
   border-radius: 15px;
 }
@@ -148,7 +148,7 @@
   column-gap: 8px;
   grid-column-gap: 8px;
   padding: 6px 10px 8px 10px;
-  background-color: #360477;
+  background-color: #020202;
   width: 150px;
   height: 20px;
   border-radius: 34px;
