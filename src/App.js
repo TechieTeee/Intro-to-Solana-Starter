@@ -174,7 +174,7 @@ const App = () => {
             <p className="header">WWW: Wonder Women of the World</p>
             <p className="sub-header">The Most Inspiring Women on the Block</p>
             <div className="moon" />
-            <div className="kiki" />
+            <div className="Shuri" />
         </div>
     );
 
