@@ -170,17 +170,6 @@
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=Squada+One&display=swap');
-html, body {
-
-  margin: 0;
-  height: 100%;
-  overflow: hidden;
-  font-family: 'Squada One' !important;
-  color: white;
-  font-size: 9px;
-}
-
 #magic {
 
   position: fixed;
