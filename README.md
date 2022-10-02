@@ -1,6 +1,6 @@
-# GIF Portal
+# WWW: Wonder Women of the World
 
-Gallery of GIFs Chosen by Users and Stored on Solana Blockchain
+Gallery of GIFs Chosen by Users and Stored on Solana Blockchain with RocksDB
 
 - Click the fork button. You've now created your own version of the project.
 - Click the clone button and copy the link that appears from the drop down menu.
