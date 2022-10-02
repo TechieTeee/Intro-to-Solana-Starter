@@ -1,165 +1,167 @@
 .App {
-  height: 100vh;
-  background-color: #020202;
-  overflow: auto;
-  text-align: center;
+    background-image:  url(Wonder_Women_Cover.png);
+    backgroundSize: 'cover';
+    backgroundRepeat: 'no-repeat';
+    height: 100vh;
+    overflow: auto;
+    text-align: center;
 }
 
 .container {
-  height: 100%;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 10px 0 30px;
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px 0 30px;
 }
 
 .authed-container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
 }
 
 .header {
-  margin: 0;
-  margin-top: -500px;
-  font-size: 5.0rem;
-  font-family: "Squada One";
-  color: white;
+    margin: 0;
+    margin-top: -500px;
+    font-size: 5.0rem;
+    font-family: "Squada One";
+    color: white;
 }
 
 .sub-header {
-  margin-top: -10px;
-  font-size: 2.2rem;
-  font-family: "Eczar";
-  color: white;
+    margin-top: -10px;
+    font-size: 2.2rem;
+    font-family: "Eczar";
+    color: white;
 }
 
 .connected-header {
-  font-family: "Squada One";
-  color: white;
-  position: relative;
-  left: -530px;
-  top: 12px;
-  font-size: 1.6rem;
+    font-family: "Squada One";
+    color: white;
+    position: relative;
+    left: -530px;
+    top: 12px;
+    font-size: 1.6rem;
 }
 
 .cta-button {
-  height: 45px;
-  border: 0;
-  width: auto;
-  padding-left: 40px;
-  padding-right: 40px;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 16px;
-  color: white;
+    height: 45px;
+    border: 0;
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
 }
 
 .connect-wallet-button {
-  background-color: #E43397;
-  background-size: 200% 200%;
-  font-family: "Squada One";
-  position: relative;
-  width: 150px;
-  top: -500px;
-  left: 1100px;
+    background-color: #E43397;
+    background-size: 200% 200%;
+    font-family: "Squada One";
+    position: relative;
+    width: 150px;
+    top: -500px;
+    left: 1100px;
 }
 
 .disconnect-wallet-button {
-  background-color: #E43397;
-  position: relative;
-  font-family: "Squada One";
-  font-size: 0.9rem;
-  left: 500px;
-  top: -60px;
-  width: 250px;
+    background-color: #E43397;
+    position: relative;
+    font-family: "Squada One";
+    font-size: 0.9rem;
+    left: 500px;
+    top: -60px;
+    width: 250px;
 }
 
 .form {
-  position: relative;
-  left: 495px;
-  top: -164px;
-  overflow: hidden;
-  width: 600px;
+    position: relative;
+    left: 495px;
+    top: -164px;
+    overflow: hidden;
+    width: 600px;
 }
 
 .submit-gif-button {
-  background-color: #020202;
-  background-size: 200% 200%;
-  margin-left: 10px;
-  font-family: "Squada One";
-  font-size: 1rem;
+    background-color: #020202;
+    background-size: 200% 200%;
+    margin-left: 10px;
+    font-family: "Squada One";
+    font-size: 1rem;
 }
 
 .gif-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 1.5rem;
-  justify-items: center;
-  margin: 0;
-  padding: 0;
-  margin-top: -100px;
-  padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1.5rem;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: -100px;
+    padding-bottom: 20px;
 }
 
 .gif-grid .gif-item {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  justify-self: center;
-  align-self: center;
-  background-color: #020202;
-  padding: 15px;
-  border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-self: center;
+    align-self: center;
+    background-color: #020202;
+    padding: 15px;
+    border-radius: 15px;
 }
 
 .gif-image {
-  width: 100%;
-  height: 300px;
-  border-radius: 16px;
-  object-fit: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
+    object-fit: cover;
 }
 
 .connected-container {height: auto;}
 
 .connected-container input[type="text"] {
-  display: inline-block;
-  color: white;
-  padding: 10px;
-  width: 50%;
-  height: 60px;
-  font-size: 16px;
-  box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.25);
-  border: none;
-  border-radius: 10px;
-  margin: 50px auto;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    height: 60px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 10px;
+    margin: 50px auto;
 }
 
 .connected-container button {
-  height: 50px;
+    height: 50px;
 }
 
 .address-tag {
-  display: inline-flex;
-  align-items: center;
-  column-gap: 8px;
-  grid-column-gap: 8px;
-  padding: 6px 10px 8px 10px;
-  background-color: #020202;
-  width: 150px;
-  height: 20px;
-  border-radius: 34px;
-  margin-left: 30px;
-  margin-top: -20px;
-  color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    column-gap: 8px;
+    grid-column-gap: 8px;
+    padding: 6px 10px 8px 10px;
+    background-color: #020202;
+    width: 150px;
+    height: 20px;
+    border-radius: 34px;
+    margin-left: 30px;
+    margin-top: -20px;
+    color: #ffffff;
 }
 
 .phantom-image {
-  width: 25px;
-  height: 25px;
+    width: 25px;
+    height: 25px;
 }
 
 .Wakanda {
@@ -172,104 +174,104 @@
 
 #magic {
 
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: -9999;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -9999;
 }
 
 .playground{
 
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  display: block;
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 
 }
 .bottomPosition{
 
-  text-align: center;
-  margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 50px;
 
 }
 .minText{
 
-  font-size: 14px;
+    font-size: 14px;
 }
 
 a {
-  color: white;
-  font-size: 12px;
-  text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
 }
 
 .logo {
-  width: 50px;
-  height: 50px;
+    width: 50px;
+    height: 50px;
 }
 
 .bounce {
-  -moz-animation: bounce 5s infinite;
-  -webkit-animation: bounce 5s infinite;
-  animation: bounce 5s infinite;
+    -moz-animation: bounce 5s infinite;
+    -webkit-animation: bounce 5s infinite;
+    animation: bounce 5s infinite;
 }
 
 @-moz-keyframes bounce {
-  0%,
-  20%,
-  40%,
-  80%,
-  100% {
-    -moz-transform: scale(0.5) translateY(0);
-    transform: scale(0.5) translateY(0);
-  }
+    0%,
+    20%,
+    40%,
+    80%,
+    100% {
+        -moz-transform: scale(0.5) translateY(0);
+        transform: scale(0.5) translateY(0);
+    }
 
-  60% {
-    -moz-transform: scale(0.5) translateY(-15px);
-    transform: scale(0.5) translateY(-15px);
-  }
+    60% {
+        -moz-transform: scale(0.5) translateY(-15px);
+        transform: scale(0.5) translateY(-15px);
+    }
 }
 @-webkit-keyframes bounce {
-  0%,
-  20%,
-  40%,
-  80%,
-  100% {
-    -webkit-transform: scale(0.5) translateY(0);
-    transform: scale(0.5) translateY(0);
-  }
+    0%,
+    20%,
+    40%,
+    80%,
+    100% {
+        -webkit-transform: scale(0.5) translateY(0);
+        transform: scale(0.5) translateY(0);
+    }
 
-  60% {
-    -webkit-transform: scale(0.5) translateY(-15px);
-    transform: scale(0.5) translateY(-15px);
-  }
+    60% {
+        -webkit-transform: scale(0.5) translateY(-15px);
+        transform: scale(0.5) translateY(-15px);
+    }
 }
 @keyframes bounce {
-  0%,
-  20%,
-  40%,
-  80%,
-  100% {
-    -moz-transform: scale(0.5) translateY(0);
-    -ms-transform: scale(0.5) translateY(0);
-    -webkit-transform: scale(0.5) translateY(0);
-    transform: scale(0.5) translateY(0);
-  }
+    0%,
+    20%,
+    40%,
+    80%,
+    100% {
+        -moz-transform: scale(0.5) translateY(0);
+        -ms-transform: scale(0.5) translateY(0);
+        -webkit-transform: scale(0.5) translateY(0);
+        transform: scale(0.5) translateY(0);
+    }
 
-  60% {
-    -moz-transform: scale(0.5) translateY(-15px);
-    -ms-transform: scale(0.5) translateY(-15px);
-    -webkit-transform: scale(0.5) translateY(-15px);
-    transform: scale(0.5) translateY(-15px);
-  }
+    60% {
+        -moz-transform: scale(0.5) translateY(-15px);
+        -ms-transform: scale(0.5) translateY(-15px);
+        -webkit-transform: scale(0.5) translateY(-15px);
+        transform: scale(0.5) translateY(-15px);
+    }
 }
