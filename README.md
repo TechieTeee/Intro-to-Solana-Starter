@@ -1,4 +1,4 @@
-# WWW: Wonder Women of the World
+# WWW: Wonder Women of the World - Capstone Project for Build Pr3tti Solana Camp
 
 Gallery of GIFs Chosen by Users and Stored on Solana Blockchain with RocksDB
 
